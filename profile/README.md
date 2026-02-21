@@ -4,7 +4,7 @@
 
 **Original security research and open-source tooling for brain-computer interfaces.**
 
-[Website](https://qinnovate.com) · [Preprint](https://doi.org/10.5281/zenodo.18640105) · [TARA Registry](https://qinnovate.com/TARA/)
+[Website](https://qinnovate.com) · [Preprint](https://doi.org/10.5281/zenodo.18640105) · [TARA Registry](https://qinnovate.com/TARA/) · [API](https://qinnovate.com/api/tara.json)
 
 </div>
 
@@ -17,11 +17,22 @@ The Quantified Interconnection Framework is an 11-band hourglass security archit
 | Component | What It Does | Links |
 |-----------|-------------|-------|
 | **QIF** | 11-band security architecture. The OSI model for the mind. v6.2.1. | [Whitepaper](https://qinnovate.com/whitepaper/) · [Interactive Explorer](https://qinnovate.com/lab/hourglass.html) |
-| **TARA** | 103 attack-therapy technique pairs. STIX 2.1 registry. | [Registry](https://qinnovate.com/TARA/) · [STIX Feed](https://qinnovate.com/api/stix.json) |
-| **NISS** | First CVSS v4.0 extension for neural interfaces. 5 metrics CVSS cannot express. | [Scoring](https://qinnovate.com/scoring/) |
-| **NSP** | Post-quantum wire protocol for BCI data links. Under 4% implant power overhead. | [Spec](https://qinnovate.com/nsp/) |
+| **TARA** | 103 attack-therapy technique pairs across 8 domains and 15 tactics. STIX 2.1 registry. | [Registry](https://qinnovate.com/TARA/) · [STIX Feed](https://qinnovate.com/api/stix.json) |
+| **NISS** | First CVSS v4.0 extension for neural interfaces. 5 metrics: Biological Impact, Cognitive Integrity, Consent Violation, Reversibility, Neuroplasticity. | [Scoring](https://qinnovate.com/scoring/) |
+| **NSP** | Post-quantum wire protocol (ML-KEM, ML-DSA, AES-256-GCM) for BCI data links. Under 4% implant power overhead. | [Spec](https://qinnovate.com/nsp/) |
 | **Runemate** | Rendering pipeline: HTML-to-bytecode today, code-to-visual-cortex tomorrow. Vision restoration is the goal. | [Spec](https://qinnovate.com/runemate/) |
 | **qtara** | Python SDK for TARA registry management and STIX export. | [PyPI](https://pypi.org/project/qtara/) |
+
+### Open API
+
+The full TARA dataset is available as a public JSON API. No auth required.
+
+| Endpoint | What It Returns |
+|----------|----------------|
+| [`/api/tara.json`](https://qinnovate.com/api/tara.json) | All 103 techniques with CVSS v4.0 vectors, NISS scores, DSM-5-TR diagnostic mappings, physics feasibility constraints, therapeutic analogs, FDA status, safe dosing parameters, governance requirements, and engineering specs. |
+| [`/api/stix.json`](https://qinnovate.com/api/stix.json) | Same data as a STIX 2.1 Bundle. Drop it into any STIX-compatible threat intel platform. |
+
+Each technique includes: attack mechanism, QIF band mapping, dual-use classification (attack vs. therapy), clinical conditions treated by the same mechanism, regulatory crosswalk (FDA, IEC, ISO), DSM-5-TR codes (primary and secondary), and physics coupling parameters.
 
 ### Tools
 
@@ -50,8 +61,6 @@ The Quantified Interconnection Framework is an 11-band hourglass security archit
 |------|-------------|
 | [**qinnovate**](https://github.com/qinnovates/qinnovate) | Core monorepo. QIF framework, TARA registry, NSP protocol, governance, preprint, website, and tools. |
 | [**firefly**](https://github.com/qinnovates/firefly) | Privacy-first journaling app for kids. Local-first architecture, COPPA/GDPR/CCPA compliant. |
-| [**macshield**](https://github.com/qinnovates/macshield) | macOS security hardening CLI. Homebrew installable. |
-| [**mindloft**](https://github.com/qinnovates/mindloft) | Research lab. Ideas, experiments, and raw process. |
 
 ---
 
