@@ -60,7 +60,7 @@ Neuroethics and regulatory compliance documents covering accessibility, informed
 | Repo | Description |
 |------|-------------|
 | [**qinnovate**](https://github.com/qinnovates/qinnovate) | Core monorepo. QIF framework, TARA registry, NSP protocol, governance, preprint, website, and tools. |
-| [**firefly**](https://github.com/qinnovates/firefly) | Privacy-first journaling app for kids. Local-first architecture, COPPA/GDPR/CCPA compliant. |
+| [**mindloft**](https://github.com/qinnovates/mindloft) | Creative workshop: ideas, experiments, tools, and Firefly (privacy-first journaling app for kids). Private. |
 
 ---
 
