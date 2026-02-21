@@ -12,7 +12,7 @@
 
 | Repo | What It Is |
 |------|-----------|
-| [**qinnovate**](https://github.com/qinnovates/qinnovate) | BCI security frameworks (QIF, TARA, NSP, NISS), governance docs, academic preprint, and practical security tools (macshield, brain-firewall, autodidactive) |
+| [**qinnovate**](https://github.com/qinnovates/qinnovate) | BCI security frameworks (QIF, TARA, NSP, NISS), governance docs, academic preprint, and practical security tools ([neurowall](https://github.com/qinnovates/qinnovate/tree/main/tools/neurowall), [macshield](https://github.com/qinnovates/qinnovate/tree/main/tools/macshield), [autodidactive](https://github.com/qinnovates/qinnovate/tree/main/tools/autodidactive)) |
 | [**firefly**](https://github.com/qinnovates/firefly) | Privacy-first journaling app for kids. Local-first, COPPA/GDPR compliant. |
 
 ### Published Work
