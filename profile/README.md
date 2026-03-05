@@ -43,16 +43,14 @@ Each technique includes: attack mechanism, QIF band mapping, dual-use classifica
 
 ### Learning Resources
 
-**[Autodidactive](https://qinnovate.com/learn/autodidactive/)** — A standalone, mobile-first daily learning app covering 45 historical figures across 7 disciplines: Polymaths, Philosophy, Neuroethics, Neuroscience, Quantum Mechanics, Cybersecurity, and Calculus. Features daily discovery (seeded PRNG), spaced repetition (SM-2), a free-placement post-it note wall, and bookmarking. Pure HTML/CSS/JS with zero dependencies. PWA-ready. ([Source](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/autodidactive))
-
-**Calculus Labs** — Interactive labs connecting calculus to BCI security and signal analysis:
-- [Calculus Fundamentals](https://qinnovate.com/learn/autodidactive/labs/calculus-fundamentals.html) — Limits, derivatives, integrals
-- [Calculus & Signals](https://qinnovate.com/learn/autodidactive/labs/calculus-signals.html) — Signal processing with calculus
-- [Calculus & BCI Limits](https://qinnovate.com/learn/autodidactive/labs/calculus-bci-limits.html) — Calculus applied to BCI constraints
-
-**[Auditory Learning](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/autodidactive/auditory)** — Learn while you work. AI-generated songs, guided meditations, and spoken-word content that encode real knowledge into formats you can absorb passively — while coding, commuting, exercising, or falling asleep. Built with Suno, Mureka, and ElevenLabs.
-
-**[Minds That Made History](https://qinnovate.com/learning/)** — The original single-page interactive reference covering polymaths, philosophers, and neuroethics pioneers across 2,500 years. Autodidactive expands on this with new disciplines, daily learning features, and a mobile-first design.
+| Resource | Description |
+|----------|-------------|
+| [**Autodidactive**](https://qinnovate.com/learn/autodidactive/) | Mobile-first daily learning app. 45 historical figures across 7 disciplines. Daily discovery (seeded PRNG), spaced repetition (SM-2), post-it note wall, bookmarking. Zero dependencies, PWA-ready. ([Source](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/autodidactive)) |
+| [**Calculus Fundamentals**](https://qinnovate.com/learn/autodidactive/labs/calculus-fundamentals.html) | Interactive lab — limits, derivatives, integrals |
+| [**Calculus & Signals**](https://qinnovate.com/learn/autodidactive/labs/calculus-signals.html) | Interactive lab — signal processing with calculus |
+| [**Calculus & BCI Limits**](https://qinnovate.com/learn/autodidactive/labs/calculus-bci-limits.html) | Interactive lab — calculus applied to BCI constraints |
+| [**Auditory Learning**](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/autodidactive/auditory) | Learn while you work. AI-generated songs and spoken-word content that encode knowledge for passive absorption. Built with Suno, Mureka, and ElevenLabs. |
+| [**Minds That Made History**](https://qinnovate.com/learning/) | Interactive reference covering polymaths, philosophers, and neuroethics pioneers across 2,500 years. |
 
 ### Governance
 
