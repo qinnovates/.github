@@ -40,7 +40,19 @@ Each technique includes: attack mechanism, QIF band mapping, dual-use classifica
 |------|-------------|
 | [**neurowall**](https://github.com/qinnovates/qinnovate/tree/main/tools/neurowall) | Neural firewall neckband prototype. OpenBCI + NSP + post-quantum crypto. |
 | [**macshield**](https://github.com/qinnovates/macshield) | Network-aware macOS hardening. Auto-hardens on untrusted WiFi, relaxes on trusted networks. `brew install qinnovates/macshield/macshield` |
-| [**autodidactive**](https://github.com/qinnovates/qinnovate/tree/main/tools/autodidactive) | Adaptive learning platform. |
+
+### Learning Resources
+
+**[Autodidactive](https://qinnovate.com/learn/autodidactive/)** — A standalone, mobile-first daily learning app covering 45 historical figures across 7 disciplines: Polymaths, Philosophy, Neuroethics, Neuroscience, Quantum Mechanics, Cybersecurity, and Calculus. Features daily discovery (seeded PRNG), spaced repetition (SM-2), a free-placement post-it note wall, and bookmarking. Pure HTML/CSS/JS with zero dependencies. PWA-ready. ([Source](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/autodidactive))
+
+**Calculus Labs** — Interactive labs connecting calculus to BCI security and signal analysis:
+- [Calculus Fundamentals](https://qinnovate.com/learn/autodidactive/labs/calculus-fundamentals.html) — Limits, derivatives, integrals
+- [Calculus & Signals](https://qinnovate.com/learn/autodidactive/labs/calculus-signals.html) — Signal processing with calculus
+- [Calculus & BCI Limits](https://qinnovate.com/learn/autodidactive/labs/calculus-bci-limits.html) — Calculus applied to BCI constraints
+
+**[Auditory Learning](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/autodidactive/auditory)** — Learn while you work. AI-generated songs, guided meditations, and spoken-word content that encode real knowledge into formats you can absorb passively — while coding, commuting, exercising, or falling asleep. Built with Suno, Mureka, and ElevenLabs.
+
+**[Minds That Made History](https://qinnovate.com/learning/)** — The original single-page interactive reference covering polymaths, philosophers, and neuroethics pioneers across 2,500 years. Autodidactive expands on this with new disciplines, daily learning features, and a mobile-first design.
 
 ### Governance
 
@@ -60,7 +72,7 @@ Neuroethics and regulatory compliance documents covering accessibility, informed
 | Repo | Description |
 |------|-------------|
 | [**qinnovate**](https://github.com/qinnovates/qinnovate) | Core monorepo. QIF framework, TARA registry, NSP protocol, governance, preprint, website, and tools. |
-| [**mindloft**](https://github.com/qinnovates/mindloft) | Creative workshop: ideas, experiments, tools, and Firefly (privacy-first journaling app for kids). Private. |
+| [**mindloft**](https://github.com/qinnovates/mindloft) | Creative workshop: ideas, experiments, and tools. Private. |
 
 ---
 
