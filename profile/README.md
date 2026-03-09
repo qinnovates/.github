@@ -16,11 +16,11 @@ The Quantified Interconnection Framework is an 11-band hourglass security archit
 
 | Component | What It Does | Links |
 |-----------|-------------|-------|
-| **QIF** | 11-band security architecture. The OSI model for the mind. | [Whitepaper](https://qinnovate.com/whitepaper/) · [Interactive Explorer](https://qinnovate.com/lab/hourglass.html) |
+| **QIF** | 11-band security architecture. The OSI model for the mind. | [Whitepaper](https://qinnovate.com/whitepaper/) · [Framework](https://qinnovate.com/framework/) |
 | **TARA** | BCI attack-therapy technique pairs across multiple domains and tactics. STIX 2.1 registry. | [Registry](https://qinnovate.com/TARA/) · [STIX Feed](https://qinnovate.com/api/stix.json) |
 | **NISS** | First CVSS v4.0 extension for neural interfaces. Metrics: Biological Impact, Cognitive Integrity, Consent Violation, Reversibility, Neuroplasticity. | [Scoring](https://qinnovate.com/scoring/) |
-| **NSP** | Post-quantum wire protocol (ML-KEM, ML-DSA, AES-256-GCM) for BCI data links. Under 4% implant power overhead. | [Spec](https://qinnovate.com/nsp/) |
-| **Runemate** | Rendering pipeline: HTML-to-bytecode today, code-to-visual-cortex tomorrow. Vision restoration is the goal. | [Spec](https://qinnovate.com/runemate/) |
+| **NSP** | Post-quantum wire protocol (ML-KEM, ML-DSA, AES-256-GCM) for BCI data links. Under 4% implant power overhead. | [Spec](https://qinnovate.com/tools/nsp/) |
+| **Runemate** | Rendering pipeline: HTML-to-bytecode today, code-to-visual-cortex tomorrow. Vision restoration is the goal. | [Spec](https://qinnovate.com/tools/runemate/) |
 | **qtara** | Python SDK for TARA registry management and STIX export. | [PyPI](https://pypi.org/project/qtara/) |
 
 ### Open API
@@ -45,12 +45,12 @@ Each technique includes: attack mechanism, QIF band mapping, dual-use classifica
 
 | Resource | Description |
 |----------|-------------|
-| [**Autodidactive**](https://qinnovate.com/learn/autodidactive/) | Mobile-first daily learning app. 45 historical figures across 7 disciplines. Daily discovery (seeded PRNG), spaced repetition (SM-2), post-it note wall, bookmarking. Zero dependencies, PWA-ready. ([Source](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/autodidactive)) |
-| [**Calculus Fundamentals**](https://qinnovate.com/learn/autodidactive/labs/calculus-fundamentals.html) | Interactive lab — limits, derivatives, integrals |
-| [**Calculus & Signals**](https://qinnovate.com/learn/autodidactive/labs/calculus-signals.html) | Interactive lab — signal processing with calculus |
-| [**Calculus & BCI Limits**](https://qinnovate.com/learn/autodidactive/labs/calculus-bci-limits.html) | Interactive lab — calculus applied to BCI constraints |
-| [**Auditory Learning**](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/autodidactive/auditory) | Learn while you work. AI-generated songs and spoken-word content that encode knowledge for passive absorption. Built with Suno, Mureka, and ElevenLabs. |
-| [**Minds That Made History**](https://qinnovate.com/learning/) | Interactive reference covering polymaths, philosophers, and neuroethics pioneers across 2,500 years. |
+| [**QIF Framework**](https://qinnovate.com/framework/) | Comprehensive walkthrough of the 11-band hourglass security architecture. |
+| [**BCI Explorer**](https://qinnovate.com/research/bci-explorer/) | Interactive explorer for BCI devices, protocols, and security considerations. |
+| [**Threat Atlas**](https://qinnovate.com/atlas/tara/) | Interactive atlas of BCI attack-therapy technique pairs. |
+| [**Scoring Atlas**](https://qinnovate.com/atlas/scoring/) | Interactive NISS scoring methodology and worked examples. |
+| [**Physics Foundations**](https://qinnovate.com/research/physics/) | Physics underpinning BCI signal acquisition and interference. |
+| [**Glossary**](https://qinnovate.com/glossary/) | Terminology reference for QIF, TARA, NISS, and neurosecurity concepts. |
 
 ### Governance
 
@@ -63,7 +63,7 @@ Neuroethics and regulatory compliance documents covering accessibility, informed
 - **Academic Preprint:** [DOI: 10.5281/zenodo.18640105](https://doi.org/10.5281/zenodo.18640105) (CC-BY 4.0)
 - **TARA Registry:** [BCI attack-therapy technique pairs](https://qinnovate.com/TARA/)
 - **qtara SDK:** `pip install qtara` ([PyPI](https://pypi.org/project/qtara/))
-- **Blog:** [BCI security research posts](https://qinnovate.com/publications/)
+- **Blog:** [BCI security research posts](https://qinnovate.com/news/)
 
 ### Repositories
 
