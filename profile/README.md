@@ -49,7 +49,7 @@ Each technique includes: attack mechanism, QIF band mapping, dual-use classifica
 | [**Calculus Fundamentals**](https://qinnovate.com/learn/autodidactive/labs/calculus-fundamentals.html) | Interactive lab — limits, derivatives, integrals |
 | [**Calculus & Signals**](https://qinnovate.com/learn/autodidactive/labs/calculus-signals.html) | Interactive lab — signal processing with calculus |
 | [**Calculus & BCI Limits**](https://qinnovate.com/learn/autodidactive/labs/calculus-bci-limits.html) | Interactive lab — calculus applied to BCI constraints |
-| [**Auditory Learning**](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/autodidactive/auditory) | AI-generated songs and spoken-word content for passive knowledge absorption. |
+| [**Auditory Learning**](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/autodidactive/auditory) | AI-generated songs and spoken-word content for passive knowledge absorption. [Spotify](https://open.spotify.com/artist/4gZIMNI8AKnuGoYbcOzZc3) |
 | [**QIF Framework**](https://qinnovate.com/framework/) | Comprehensive walkthrough of the 11-band hourglass security architecture. |
 | [**BCI Explorer**](https://qinnovate.com/research/bci-explorer/) | Interactive explorer for BCI devices, protocols, and security considerations. |
 | [**Threat Atlas**](https://qinnovate.com/atlas/tara/) | Interactive atlas of BCI attack-therapy technique pairs. |
