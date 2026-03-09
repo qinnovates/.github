@@ -45,11 +45,14 @@ Each technique includes: attack mechanism, QIF band mapping, dual-use classifica
 
 | Resource | Description |
 |----------|-------------|
+| [**Autodidactive**](https://qinnovate.com/learn/autodidactive/) | Mobile-first daily learning app. 45 historical figures across 7 disciplines. Spaced repetition, post-it note wall, bookmarking. ([Source](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/autodidactive)) |
+| [**Calculus Fundamentals**](https://qinnovate.com/learn/autodidactive/labs/calculus-fundamentals.html) | Interactive lab — limits, derivatives, integrals |
+| [**Calculus & Signals**](https://qinnovate.com/learn/autodidactive/labs/calculus-signals.html) | Interactive lab — signal processing with calculus |
+| [**Calculus & BCI Limits**](https://qinnovate.com/learn/autodidactive/labs/calculus-bci-limits.html) | Interactive lab — calculus applied to BCI constraints |
+| [**Auditory Learning**](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/autodidactive/auditory) | AI-generated songs and spoken-word content for passive knowledge absorption. |
 | [**QIF Framework**](https://qinnovate.com/framework/) | Comprehensive walkthrough of the 11-band hourglass security architecture. |
 | [**BCI Explorer**](https://qinnovate.com/research/bci-explorer/) | Interactive explorer for BCI devices, protocols, and security considerations. |
 | [**Threat Atlas**](https://qinnovate.com/atlas/tara/) | Interactive atlas of BCI attack-therapy technique pairs. |
-| [**Scoring Atlas**](https://qinnovate.com/atlas/scoring/) | Interactive NISS scoring methodology and worked examples. |
-| [**Physics Foundations**](https://qinnovate.com/research/physics/) | Physics underpinning BCI signal acquisition and interference. |
 | [**Glossary**](https://qinnovate.com/glossary/) | Terminology reference for QIF, TARA, NISS, and neurosecurity concepts. |
 
 ### Governance
