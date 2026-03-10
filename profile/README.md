@@ -63,7 +63,7 @@ Original music encoding philosophy, neuroscience, and personal narrative into so
 | **Sawdust** | Dark gospel blues / soul | [Spotify](https://open.spotify.com/artist/4gZIMNI8AKnuGoYbcOzZc3) |
 | **Principals of Ethics** | Cinematic neo-soul gospel | [Lyrics & Analysis](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/music/justbrowser/neuroethics/principals-of-ethics.md) |
 
-[Listen on Spotify](https://open.spotify.com/artist/4gZIMNI8AKnuGoYbcOzZc3) · [All tracks](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/music/justbrowser)
+[Listen on Spotify](https://open.spotify.com/artist/4gZIMNI8AKnuGoYbcOzZc3) · [SoundCloud](https://soundcloud.com/search?q=keviano%20kulhi) · [All tracks](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/music/justbrowser)
 
 ### Governance
 
