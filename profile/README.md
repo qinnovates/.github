@@ -49,11 +49,21 @@ Each technique includes: attack mechanism, QIF band mapping, dual-use classifica
 | [**Calculus Fundamentals**](https://qinnovate.com/learn/autodidactive/labs/calculus-fundamentals.html) | Interactive lab — limits, derivatives, integrals |
 | [**Calculus & Signals**](https://qinnovate.com/learn/autodidactive/labs/calculus-signals.html) | Interactive lab — signal processing with calculus |
 | [**Calculus & BCI Limits**](https://qinnovate.com/learn/autodidactive/labs/calculus-bci-limits.html) | Interactive lab — calculus applied to BCI constraints |
-| [**Music — justbrowser**](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/music/justbrowser) | Original music encoding philosophy, neuroscience, and personal narrative into cinematic neo-soul gospel. [Spotify](https://open.spotify.com/artist/4gZIMNI8AKnuGoYbcOzZc3) |
 | [**QIF Framework**](https://qinnovate.com/framework/) | Comprehensive walkthrough of the 11-band hourglass security architecture. |
 | [**BCI Explorer**](https://qinnovate.com/research/bci-explorer/) | Interactive explorer for BCI devices, protocols, and security considerations. |
 | [**Threat Atlas**](https://qinnovate.com/atlas/tara/) | Interactive atlas of BCI attack-therapy technique pairs. |
 | [**Glossary**](https://qinnovate.com/glossary/) | Terminology reference for QIF, TARA, NISS, and neurosecurity concepts. |
+
+### Music — justbrowser
+
+Original music encoding philosophy, neuroscience, and personal narrative into sound.
+
+| Track | Genre | Links |
+|-------|-------|-------|
+| **Sawdust** | Dark gospel blues / soul | [Spotify](https://open.spotify.com/artist/4gZIMNI8AKnuGoYbcOzZc3) |
+| **Principals of Ethics** | Cinematic neo-soul gospel | [Lyrics & Analysis](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/music/justbrowser/neuroethics/principals-of-ethics.md) |
+
+[Listen on Spotify](https://open.spotify.com/artist/4gZIMNI8AKnuGoYbcOzZc3) · [All tracks](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/music/justbrowser)
 
 ### Governance
 
