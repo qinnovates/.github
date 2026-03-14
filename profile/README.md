@@ -40,6 +40,7 @@ Each technique includes: attack mechanism, QIF band mapping, dual-use classifica
 |------|-------------|
 | [**neurowall**](https://github.com/qinnovates/qinnovate/tree/main/tools/neurowall) | Neural firewall neckband prototype. OpenBCI + NSP + post-quantum crypto. |
 | [**macshield**](https://github.com/qinnovates/macshield) | Network-aware macOS hardening. Auto-hardens on untrusted WiFi, relaxes on trusted networks. `brew install qinnovates/macshield/macshield` |
+| [**dogma**](https://github.com/qinnovates/dogma) | Pet wellness tracker iOS app. LiDAR camera (6 visual modes), health monitoring (breathing, shivering, PPG heart rate), Dog Finder with haptic/audio guidance for accessibility. |
 
 ### Learning Resources
 
@@ -83,6 +84,7 @@ Neuroethics and regulatory compliance documents covering accessibility, informed
 | Repo | Description |
 |------|-------------|
 | [**qinnovate**](https://github.com/qinnovates/qinnovate) | Core monorepo. QIF framework, TARA registry, NSP protocol, governance, preprint, website, and tools. |
+| [**dogma**](https://github.com/qinnovates/dogma) | Pet wellness tracker. LiDAR camera, health monitoring, Dog Finder accessibility tool. iOS app. |
 | [**mindloft**](https://github.com/qinnovates/mindloft) | Creative workshop: ideas, experiments, and tools. Private. |
 
 ---
