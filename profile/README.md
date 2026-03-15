@@ -2,95 +2,141 @@
 
 # Qinnovates
 
-**Original security research and open-source tooling for brain-computer interfaces.**
+**Security research and open-source tooling for brain-computer interfaces.**
 
-[Website](https://qinnovate.com) · [Preprint](https://doi.org/10.5281/zenodo.18640105) · [TARA Registry](https://qinnovate.com/TARA/) · [API](https://qinnovate.com/api/tara.json)
+[Website](https://qinnovate.com) · [Preprint](https://doi.org/10.5281/zenodo.18640105) · [Blog](https://qinnovate.com/news/) · [API](https://qinnovate.com/api/tara.json)
 
 </div>
 
+Built by [Kevin Qi](https://qinnovate.com/about/) — 15 years in security engineering, now applied to the brain-computer interface stack. Designing since [AGFX (2003)](https://web.archive.org/web/20070107073424/http://s8.invisionfree.com:80/AGFX/), building security infrastructure since 2011.
+
 ---
 
-### QIF Framework
+**Researchers** → [Preprint](https://doi.org/10.5281/zenodo.18640105) · [Threat taxonomy](https://qinnovate.com/TARA/) · [Governance](https://github.com/qinnovates/qinnovate/tree/main/governance)<br>
+**Developers** → [Install](#install) · [API](#open-api) · [Monorepo guide](https://github.com/qinnovates/qinnovate#project-structure)<br>
+**Everyone else** → [What is this?](https://qinnovate.com/framework/) · [Blog](https://qinnovate.com/news/)
 
-The Quantified Interconnection Framework is an 11-band hourglass security architecture for BCIs: 7 neural bands (N7 Neocortex to N1 Spinal Cord), a physical interface boundary (I0, the electrode-tissue junction), and 3 silicon bands (S1 Analog to S3 Radio/Wireless).
+---
 
-| Component | What It Does | Links |
-|-----------|-------------|-------|
-| **QIF** | 11-band security architecture. The OSI model for the mind. | [Whitepaper](https://qinnovate.com/whitepaper/) · [Framework](https://qinnovate.com/framework/) |
-| **TARA** | BCI attack-therapy technique pairs across multiple domains and tactics. STIX 2.1 registry. | [Registry](https://qinnovate.com/TARA/) · [STIX Feed](https://qinnovate.com/api/stix.json) |
-| **NISS** | First CVSS v4.0 extension for neural interfaces. Metrics: Biological Impact, Cognitive Integrity, Consent Violation, Reversibility, Neuroplasticity. | [Scoring](https://qinnovate.com/scoring/) |
-| **NSP** | Post-quantum wire protocol (ML-KEM, ML-DSA, AES-256-GCM) for BCI data links. Under 4% implant power overhead. | [Spec](https://qinnovate.com/tools/nsp/) |
-| **Runemate** | Rendering pipeline: HTML-to-bytecode today, code-to-visual-cortex tomorrow. Vision restoration is the goal. | [Spec](https://qinnovate.com/tools/runemate/) |
-| **qtara** | Python SDK for TARA registry management and STIX export. | [PyPI](https://pypi.org/project/qtara/) |
+## Research
+
+QIF is an 11-band hourglass security architecture for BCIs — 7 neural bands, a physical interface boundary (I0), and 3 silicon bands.
+
+| Component | Purpose | Links |
+|-----------|---------|-------|
+| **QIF** | Hourglass architecture spanning neural, interface, and silicon bands | [Whitepaper](https://qinnovate.com/whitepaper/) · [Guide](https://qinnovate.com/framework/) |
+| **TARA** | Attack-therapy technique pairs across biological domains, structured as a STIX 2.1 registry | [Registry](https://qinnovate.com/TARA/) · [Atlas](https://qinnovate.com/atlas/tara/) |
+| **NISS** | CVSS v4.0 scoring extension for neural interfaces | [Calculator](https://qinnovate.com/scoring/) |
+| **NSP** | Post-quantum wire protocol for BCI data links | [Spec](https://qinnovate.com/tools/nsp/) |
+| **Runemate** | Rendering pipeline for vision restoration. HTML-to-bytecode compiler today, targeting visual cortex output long-term | [Spec](https://qinnovate.com/tools/runemate/) |
+
+> All components are proposed research, not adopted standards. [Full status & limitations](https://github.com/qinnovates/qinnovate/tree/main/governance)
+
+<details>
+<summary><strong>Cite this work</strong></summary>
+
+```bibtex
+@misc{qi2026securing,
+  title     = {Securing Neural Interfaces: Architecture, Threat Taxonomy, and Neural Impact Scoring for Brain-Computer Interfaces},
+  author    = {Qi, Kevin},
+  year      = {2026},
+  doi       = {10.5281/zenodo.18640105},
+  url       = {https://doi.org/10.5281/zenodo.18640105},
+  publisher = {Zenodo},
+  note      = {Preprint, CC-BY 4.0}
+}
+```
+
+</details>
 
 ### Open API
 
-The full TARA dataset is available as a public JSON API. No auth required.
+No auth required.
 
-| Endpoint | What It Returns |
-|----------|----------------|
-| [`/api/tara.json`](https://qinnovate.com/api/tara.json) | All techniques with CVSS v4.0 vectors, NISS scores, DSM-5-TR diagnostic mappings, physics feasibility constraints, therapeutic analogs, FDA status, safe dosing parameters, governance requirements, and engineering specs. |
-| [`/api/stix.json`](https://qinnovate.com/api/stix.json) | Same data as a STIX 2.1 Bundle. Drop it into any STIX-compatible threat intel platform. |
+| Endpoint | What You Get |
+|----------|-------------|
+| [`/api/tara.json`](https://qinnovate.com/api/tara.json) | Full TARA registry — CVSS, NISS, DSM-5-TR, physics, therapy, governance |
+| [`/api/stix.json`](https://qinnovate.com/api/stix.json) | Same data as a STIX 2.1 Bundle for threat intel platforms |
 
-Each technique includes: attack mechanism, QIF band mapping, dual-use classification (attack vs. therapy), clinical conditions treated by the same mechanism, regulatory crosswalk (FDA, IEC, ISO), DSM-5-TR codes (primary and secondary), and physics coupling parameters.
+---
+
+## Use
+
+### Install
+
+```bash
+claude install qinnovates/quorum          # Multi-agent reasoning for Claude Code
+brew install qinnovates/macshield/macshield  # macOS network-aware hardening
+pip install qtara                          # Python SDK for TARA registry
+```
 
 ### Tools
 
-| Tool | Description |
-|------|-------------|
-| [**neurowall**](https://github.com/qinnovates/qinnovate/tree/main/tools/neurowall) | Neural firewall neckband prototype. OpenBCI + NSP + post-quantum crypto. |
-| [**macshield**](https://github.com/qinnovates/macshield) | Network-aware macOS hardening. Auto-hardens on untrusted WiFi, relaxes on trusted networks. `brew install qinnovates/macshield/macshield` |
-| [**dogma**](https://github.com/qinnovates/dogma) | Pet wellness tracker iOS app. LiDAR camera (6 visual modes), health monitoring (breathing, shivering, PPG heart rate), Dog Finder with haptic/audio guidance for accessibility. |
+| Tool | What It Does | Platform |
+|------|-------------|----------|
+| [**Quorum**](https://github.com/qinnovates/quorum) | Multi-agent reasoning for Claude Code. Expert swarms, dialectic mode, hallucination detection | Claude Code |
+| [**macshield**](https://github.com/qinnovates/macshield) | Network-aware macOS hardening. Auto-hardens on untrusted WiFi | macOS |
+| [**qtara**](https://pypi.org/project/qtara/) ([source](https://github.com/qinnovates/qinnovate/tree/main/shared/qtara)) | Python SDK for TARA registry management and STIX export | Python |
+| [**Neurowall**](https://github.com/qinnovates/qinnovate/tree/main/tools/neurowall) | Neural firewall neckband prototype. OpenBCI + NSP + post-quantum crypto | Hardware / Python |
+| [**Dogma**](https://github.com/qinnovates/dogma) | Pet wellness tracker. LiDAR camera (6 modes), health monitoring, Dog Finder with haptic/audio guidance | iOS / Swift |
+| [**QIF-LiDAR**](https://github.com/qinnovates/qinnovate/tree/main/tools/qif-lidar) | iPhone depth sensing for vision prosthesis research | iOS / Swift |
+| [**Open Neural Atlas**](https://github.com/qinnovates/neurosim) | Interactive 3D brain visualization with BCI electrode mapping | Web |
 
-### Learning Resources
+Questions or feedback? [Open an issue](https://github.com/qinnovates/qinnovate/issues).
 
-| Resource | Description |
-|----------|-------------|
-| [**Autodidactive**](https://qinnovate.com/learn/autodidactive/) | Mobile-first daily learning app. 45 historical figures across 7 disciplines. Spaced repetition, post-it note wall, bookmarking. ([Source](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/autodidactive)) |
-| [**Calculus Fundamentals**](https://qinnovate.com/learn/autodidactive/labs/calculus-fundamentals.html) | Interactive lab — limits, derivatives, integrals |
-| [**Calculus & Signals**](https://qinnovate.com/learn/autodidactive/labs/calculus-signals.html) | Interactive lab — signal processing with calculus |
-| [**Calculus & BCI Limits**](https://qinnovate.com/learn/autodidactive/labs/calculus-bci-limits.html) | Interactive lab — calculus applied to BCI constraints |
-| [**QIF Framework**](https://qinnovate.com/framework/) | Comprehensive walkthrough of the 11-band hourglass security architecture. |
-| [**BCI Explorer**](https://qinnovate.com/research/bci-explorer/) | Interactive explorer for BCI devices, protocols, and security considerations. |
-| [**Threat Atlas**](https://qinnovate.com/atlas/tara/) | Interactive atlas of BCI attack-therapy technique pairs. |
-| [**Glossary**](https://qinnovate.com/glossary/) | Terminology reference for QIF, TARA, NISS, and neurosecurity concepts. |
+---
 
-### Music — justbrowser
+## Explore
 
-Original music encoding philosophy, neuroscience, and personal narrative into sound.
+Interactive tools on [qinnovate.com](https://qinnovate.com).
 
-| Track | Genre | Links |
-|-------|-------|-------|
-| **Sawdust** | Dark gospel blues / soul | [Spotify](https://open.spotify.com/artist/4gZIMNI8AKnuGoYbcOzZc3) |
-| **Principals of Ethics** | Cinematic neo-soul gospel | [Lyrics & Analysis](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/music/justbrowser/neuroethics/principals-of-ethics.md) |
+| Resource | What It Is |
+|----------|-----------|
+| [QIF Framework Guide](https://qinnovate.com/framework/) | Walkthrough of the 11-band hourglass architecture |
+| [Threat Atlas](https://qinnovate.com/atlas/tara/) | Visual atlas of attack-therapy technique pairs |
+| [TARA Registry](https://qinnovate.com/TARA/) | Searchable registry with filtering, scoring, and export |
+| [NISS Calculator](https://qinnovate.com/scoring/) | Neural impact scoring tool |
+| [BCI Explorer](https://qinnovate.com/research/bci-explorer/) | Devices, protocols, and security considerations |
+| [Glossary](https://qinnovate.com/glossary/) | Terminology reference for neurosecurity concepts |
 
-[Listen on Spotify](https://open.spotify.com/artist/4gZIMNI8AKnuGoYbcOzZc3) · [SoundCloud](https://soundcloud.com/search?q=keviano%20kulhi) · [All tracks](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/music/justbrowser)
+---
 
-### Governance
+## Read
 
-Neuroethics and regulatory compliance documents covering accessibility, informed consent, pediatric protections, FDA/EU MDR crosswalk, UNESCO alignment, and post-deployment ethics.
+| What | Link |
+|------|------|
+| Academic preprint (CC-BY 4.0) | [DOI: 10.5281/zenodo.18640105](https://doi.org/10.5281/zenodo.18640105) |
+| Blog — BCI security research | [qinnovate.com/news](https://qinnovate.com/news/) |
+| Governance & ethics (12 docs) | [Neuroethics](https://github.com/qinnovates/qinnovate/blob/main/governance/QIF-NEUROETHICS.md) · [Informed Consent](https://github.com/qinnovates/qinnovate/blob/main/governance/INFORMED_CONSENT_FRAMEWORK.md) · [All docs](https://github.com/qinnovates/qinnovate/tree/main/governance) |
 
-[Browse governance docs](https://github.com/qinnovates/qinnovate/tree/main/governance) · [Transparency statement](https://github.com/qinnovates/qinnovate/blob/main/governance/TRANSPARENCY.md)
+---
 
-### Published Work
+## Repositories
 
-- **Academic Preprint:** [DOI: 10.5281/zenodo.18640105](https://doi.org/10.5281/zenodo.18640105) (CC-BY 4.0)
-- **TARA Registry:** [BCI attack-therapy technique pairs](https://qinnovate.com/TARA/)
-- **qtara SDK:** `pip install qtara` ([PyPI](https://pypi.org/project/qtara/))
-- **Blog:** [BCI security research posts](https://qinnovate.com/news/)
+| Repo | What | Stack |
+|------|------|-------|
+| [**qinnovate**](https://github.com/qinnovates/qinnovate) | Core monorepo — framework, registry, protocol, governance, preprint, website, tools | TypeScript, Astro, Python |
+| [**quorum**](https://github.com/qinnovates/quorum) | Multi-agent reasoning plugin for Claude Code | Claude Code skill |
+| [**dogma**](https://github.com/qinnovates/dogma) | Pet wellness tracker. LiDAR camera, health monitoring, Dog Finder accessibility | iOS / Swift |
+| [**neurosim**](https://github.com/qinnovates/neurosim) | Open Neural Atlas — 3D brain visualization, electrode mapping | TypeScript, Three.js |
+| [**macshield**](https://github.com/qinnovates/macshield) | Network-aware macOS hardening | Shell |
+| [**homebrew-tools**](https://github.com/qinnovates/homebrew-tools) | Homebrew tap for qinnovates tools | Ruby |
+| [**mindloft**](https://github.com/qinnovates/mindloft) | Creative workshop — ideas, experiments, tools | Private |
 
-### Repositories
+---
 
-| Repo | Description |
-|------|-------------|
-| [**qinnovate**](https://github.com/qinnovates/qinnovate) | Core monorepo. QIF framework, TARA registry, NSP protocol, governance, preprint, website, and tools. |
-| [**dogma**](https://github.com/qinnovates/dogma) | Pet wellness tracker. LiDAR camera, health monitoring, Dog Finder accessibility tool. iOS app. |
-| [**mindloft**](https://github.com/qinnovates/mindloft) | Creative workshop: ideas, experiments, and tools. Private. |
+### Creative & Learning
+
+Music under **justbrowser** — [Spotify](https://open.spotify.com/artist/4gZIMNI8AKnuGoYbcOzZc3) · [SoundCloud](https://soundcloud.com/search?q=keviano%20kulhi) · [All Tracks](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/music/justbrowser)
+
+Learning — [Autodidactive](https://qinnovate.com/learn/autodidactive/) · [Calculus Labs](https://qinnovate.com/learn/autodidactive/labs/calculus-fundamentals.html)
+
+Design origins (2003-2005) — [DeviantArt](https://www.deviantart.com/kevq) · [AGFX forum (Wayback)](https://web.archive.org/web/20070107073424/http://s8.invisionfree.com:80/AGFX/)
 
 ---
 
 <div align="center">
 
-*Open standards for the neural frontier. Apache 2.0.*
+Apache 2.0
 
 </div>
