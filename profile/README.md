@@ -65,6 +65,7 @@ No auth required.
 ### Install
 
 ```bash
+pip install engram                         # Brain-inspired AI memory compression + PQ encryption
 claude install qinnovates/quorum          # Multi-agent reasoning for Claude Code
 brew install qinnovates/macshield/macshield  # macOS network-aware hardening
 pip install qtara                          # Python SDK for TARA registry
@@ -74,11 +75,12 @@ pip install qtara                          # Python SDK for TARA registry
 
 | Tool | What It Does | Platform |
 |------|-------------|----------|
+| [**Engram**](https://github.com/qinnovates/engram) | Brain-inspired AI memory compression. Models how biological memory tiers short/medium/long-term storage to increase AI context windows securely using multi-stage compression (4-50x) and optional post-quantum encryption (ML-KEM-768) | Python, any AI |
 | [**Quorum**](https://github.com/qinnovates/quorum) | Multi-agent reasoning for Claude Code. Expert swarms, dialectic mode, hallucination detection | Claude Code |
 | [**macshield**](https://github.com/qinnovates/macshield) | Network-aware macOS hardening. Auto-hardens on untrusted WiFi | macOS |
 | [**qtara**](https://pypi.org/project/qtara/) ([source](https://github.com/qinnovates/qinnovate/tree/main/shared/qtara)) | Python SDK for TARA registry management and STIX export | Python |
 | [**Neurowall**](https://github.com/qinnovates/qinnovate/tree/main/tools/neurowall) | Neural firewall neckband prototype. OpenBCI + NSP + post-quantum crypto | Hardware / Python |
-| [**Dogma**](https://github.com/qinnovates/dogma) | Pet wellness tracker. LiDAR camera (6 modes), health monitoring, Dog Finder with haptic/audio guidance | iOS / Swift |
+| **Dogma** *(in development)* | Pet wellness tracker. LiDAR camera (6 modes), health monitoring, Dog Finder with haptic/audio guidance | iOS / Swift |
 | [**QIF-LiDAR**](https://github.com/qinnovates/qinnovate/tree/main/tools/qif-lidar) | iPhone depth sensing for vision prosthesis research | iOS / Swift |
 | [**Open Neural Atlas**](https://github.com/qinnovates/neurosim) | Interactive 3D brain visualization with BCI electrode mapping | Web |
 
@@ -116,8 +118,9 @@ Interactive tools on [qinnovate.com](https://qinnovate.com).
 | Repo | What | Stack |
 |------|------|-------|
 | [**qinnovate**](https://github.com/qinnovates/qinnovate) | Core monorepo — framework, registry, protocol, governance, preprint, website, tools | TypeScript, Astro, Python |
+| [**engram**](https://github.com/qinnovates/engram) | Brain-inspired AI memory engine — tiered compression + PQ encryption for context window scaling | Python |
 | [**quorum**](https://github.com/qinnovates/quorum) | Multi-agent reasoning plugin for Claude Code | Claude Code skill |
-| [**dogma**](https://github.com/qinnovates/dogma) | Pet wellness tracker. LiDAR camera, health monitoring, Dog Finder accessibility | iOS / Swift |
+| **dogma** *(in development)* | Pet wellness tracker. LiDAR camera, health monitoring, Dog Finder accessibility | iOS / Swift |
 | [**neurosim**](https://github.com/qinnovates/neurosim) | Open Neural Atlas — 3D brain visualization, electrode mapping | TypeScript, Three.js |
 | [**macshield**](https://github.com/qinnovates/macshield) | Network-aware macOS hardening | Shell |
 | [**homebrew-tools**](https://github.com/qinnovates/homebrew-tools) | Homebrew tap for qinnovates tools | Ruby |
