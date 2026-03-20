@@ -4,7 +4,7 @@
 
 **Security research and open-source tooling for brain-computer interfaces.**
 
-[Website](https://qinnovate.com) · [Preprint](https://doi.org/10.5281/zenodo.18640105) · [Blog](https://qinnovate.com/news/) · [API](https://qinnovate.com/api/tara.json)
+[Website](https://qinnovate.com) · [Preprint](https://doi.org/10.5281/zenodo.18640105) · [Blog](https://qinnovate.com/news/) · [API](https://qinnovate.com/api/tara.json) · [AI-rchives](https://ai-rchives.org)
 
 </div>
 
@@ -124,6 +124,7 @@ Interactive tools on [qinnovate.com](https://qinnovate.com).
 | [**neurosim**](https://github.com/qinnovates/neurosim) | Open Neural Atlas — 3D brain visualization, electrode mapping | TypeScript, Three.js |
 | [**macshield**](https://github.com/qinnovates/macshield) | Network-aware macOS hardening | Shell |
 | [**homebrew-tools**](https://github.com/qinnovates/homebrew-tools) | Homebrew tap for qinnovates tools | Ruby |
+| [**ai-rchives**](https://github.com/ai-rchives/ai-rchives) | Open-source digital archaeology — humans and AI agents recovering the lost artifacts of the internet | Python, GitHub Actions |
 | [**mindloft**](https://github.com/qinnovates/mindloft) | Creative workshop — ideas, experiments, tools | Private |
 
 ---
