@@ -126,11 +126,7 @@ Interactive tools on [qinnovate.com](https://qinnovate.com).
 
 ### Creative & Learning
 
-Music under **justbrowser** — [Spotify](https://open.spotify.com/artist/4gZIMNI8AKnuGoYbcOzZc3) · [SoundCloud](https://soundcloud.com/search?q=keviano%20kulhi) · [All Tracks](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/music/justbrowser)
-
 Learning — [Autodidactive](https://qinnovate.com/learn/autodidactive/) · [Calculus Labs](https://qinnovate.com/learn/autodidactive/labs/calculus-fundamentals.html)
-
-Design origins (2003-2005) — [DeviantArt](https://www.deviantart.com/kevq) · [AGFX forum (Wayback)](https://web.archive.org/web/20070107073424/http://s8.invisionfree.com:80/AGFX/)
 
 ---
 
