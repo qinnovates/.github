@@ -8,8 +8,6 @@
 
 </div>
 
-Built by [Kevin Qi](https://qinnovate.com/about/) — 15 years in security engineering, now applied to the brain-computer interface stack. Designing since [AGFX (2003)](https://web.archive.org/web/20070107073424/http://s8.invisionfree.com:80/AGFX/), building security infrastructure since 2011.
-
 ---
 
 **Researchers** → [Preprint](https://doi.org/10.5281/zenodo.18640105) · [Threat taxonomy](https://qinnovate.com/TARA/) · [Governance](https://github.com/qinnovates/qinnovate/tree/main/governance)<br>
