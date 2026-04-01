@@ -4,7 +4,7 @@
 
 **Security research and open-source tooling for brain-computer interfaces.**
 
-[Website](https://qinnovate.com) · [Preprint](https://doi.org/10.5281/zenodo.18640105) · [Blog](https://qinnovate.com/news/) · [API](https://qinnovate.com/api/tara.json) · [AI-rchives](https://ai-rchives.org)
+[kevqi.com (portfolio)](https://kevqi.com) · [Website](https://qinnovate.com) · [Preprint](https://doi.org/10.5281/zenodo.18640105) · [Blog](https://qinnovate.com/news/) · [API](https://qinnovate.com/api/tara.json) · [AI-rchives](https://ai-rchives.org)
 
 </div>
 
@@ -65,7 +65,6 @@ No auth required.
 ```bash
 pip install myelin8                        # Brain-inspired AI memory compression + PQ encryption
 claude install qinnovates/quorum          # Multi-agent reasoning for Claude Code
-brew install qinnovates/macshield/macshield  # macOS network-aware hardening
 pip install qtara                          # Python SDK for TARA registry
 ```
 
@@ -75,7 +74,6 @@ pip install qtara                          # Python SDK for TARA registry
 |------|-------------|----------|
 | [**Myelin8**](https://github.com/qinnovates/myelin8) | Brain-inspired AI memory compression. Models how biological memory tiers short/medium/long-term storage to increase AI context windows securely using multi-stage compression (4-50x) and optional post-quantum encryption (ML-KEM-768) | Python, any AI |
 | [**Quorum**](https://github.com/qinnovates/quorum) | Multi-agent reasoning for Claude Code. Expert swarms, dialectic mode, hallucination detection | Claude Code |
-| [**macshield**](https://github.com/qinnovates/macshield) | Network-aware macOS hardening. Auto-hardens on untrusted WiFi | macOS |
 | [**qtara**](https://pypi.org/project/qtara/) ([source](https://github.com/qinnovates/qinnovate/tree/main/shared/qtara)) | Python SDK for TARA registry management and STIX export | Python |
 | [**Neurowall**](https://github.com/qinnovates/qinnovate/tree/main/tools/neurowall) | Neural firewall neckband prototype. OpenBCI + NSP + post-quantum crypto | Hardware / Python |
 | [**QIF-LiDAR**](https://github.com/qinnovates/qinnovate/tree/main/tools/qif-lidar) | iPhone depth sensing for vision prosthesis research | iOS / Swift |
@@ -116,15 +114,27 @@ Interactive tools on [qinnovate.com](https://qinnovate.com).
 | [**neurosecurity**](https://github.com/qinnovates/neurosecurity) | Core monorepo — framework, registry, protocol, governance, preprint, website, tools | TypeScript, Astro, Python |
 | [**myelin8**](https://github.com/qinnovates/myelin8) | Brain-inspired AI memory engine — tiered compression + PQ encryption for context window scaling | Python |
 | [**quorum**](https://github.com/qinnovates/quorum) | Multi-agent reasoning plugin for Claude Code | Claude Code skill |
-| [**macshield**](https://github.com/qinnovates/macshield) | Network-aware macOS hardening | Shell |
-| [**homebrew-tools**](https://github.com/qinnovates/homebrew-tools) | Homebrew tap for qinnovates tools | Ruby |
+| **dogma** *(in development)* | Pet wellness tracker. LiDAR camera, health monitoring, Dog Finder accessibility | iOS / Swift |
+| [**neurosim**](https://github.com/qinnovates/neurosim) | Open Neural Atlas — 3D brain visualization, electrode mapping | TypeScript, Three.js |
 | [**ai-rchives**](https://github.com/ai-rchives/ai-rchives) | Open-source digital archaeology — humans and AI agents recovering the lost artifacts of the internet | Python, GitHub Actions |
 
 ---
 
-### Creative & Learning
+### Creative
 
-Learning — [Autodidactive](https://qinnovate.com/learn/autodidactive/) · [Calculus Labs](https://qinnovate.com/learn/autodidactive/labs/calculus-fundamentals.html)
+Music under **justbrowser** — [Spotify](https://open.spotify.com/artist/4gZIMNI8AKnuGoYbcOzZc3) · [SoundCloud](https://soundcloud.com/search?q=keviano%20kulhi) · [All Tracks](https://github.com/qinnovates/qinnovate/tree/main/docs/learn/music/justbrowser)
+
+Design origins (2003-2005) — [DeviantArt](https://www.deviantart.com/kevq) · [AGFX forum (Wayback)](https://web.archive.org/web/20070107073424/http://s8.invisionfree.com:80/AGFX/)
+
+---
+
+### Learn
+
+| Lab | What It Is |
+|-----|-----------|
+| [**Autodidactive**](https://qinnovate.com/learn/autodidactive/index.html) | Self-directed learning portal — 130+ cards, knowledge graph, spaced repetition, mind mapping |
+| [**Calculus Labs**](https://qinnovate.com/learn/autodidactive/labs/calculus-fundamentals.html) | Interactive calculus fundamentals with BCI signal applications |
+| [**How LLMs Work**](https://qinnovate.com/learn/autodidactive/labs/llm-explainer.html) | Visual explainer of transformer architecture and attention mechanics |
 
 ---
 
