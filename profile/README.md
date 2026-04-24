@@ -4,7 +4,7 @@
 
 **Security research and open-source tooling for brain-computer interfaces.**
 
-[kevqi.com (portfolio)](https://kevqi.com) · [Website](https://qinnovate.com) · [Preprint](https://doi.org/10.5281/zenodo.18640105) · [Blog](https://qinnovate.com/news/) · [API](https://qinnovate.com/api/tara.json) · [AI-rchives](https://ai-rchives.org)
+[kevqi.com (portfolio)](https://kevqi.com) · [Website](https://qinnovate.com) · [Preprint](https://doi.org/10.5281/zenodo.18640105) · [Blog](https://qinnovate.com/news/) · [API](https://qinnovate.com/api/tara.json)
 
 </div>
 
@@ -116,7 +116,6 @@ Interactive tools on [qinnovate.com](https://qinnovate.com).
 | [**quorum**](https://github.com/qinnovates/quorum) | Multi-agent reasoning plugin for Claude Code | Claude Code skill |
 | **dogma** *(in development)* | Pet wellness tracker. LiDAR camera, health monitoring, Dog Finder accessibility | iOS / Swift |
 | [**neurosim**](https://github.com/qinnovates/neurosim) | Open Neural Atlas — 3D brain visualization, electrode mapping | TypeScript, Three.js |
-| [**ai-rchives**](https://github.com/ai-rchives/ai-rchives) | Open-source digital archaeology — humans and AI agents recovering the lost artifacts of the internet | Python, GitHub Actions |
 
 ---
 
